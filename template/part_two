@@ -1,7 +1,0 @@
-#!/bin/fish
-
-set year {year}
-set day {day}
-
-aoc r -d $day -y $year -o > /dev/null
-
