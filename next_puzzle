@@ -1,0 +1,27 @@
+#!/bin/fish
+
+set year (path filter -d * | string match -r "\d+")[-1]
+set day (ls $year | path sort)[-1]
+
+if test (string length "$day") -eq 0;
+    set day 0
+end
+
+set day (math $day + 1)
+
+if not aoc r -d $day -y $year -p /dev/null -o > /dev/null
+    echo Unable to download
+    exit
+end
+
+cp -r template $year/$day
+cd $year/$day
+
+aoc r -d $day -y $year > /dev/null
+aoc d -d $day -y $year -i input
+
+
+
+sd -s "{year}" $year **
+sd -s "{day}" $day **
+sd -s "{day}" $day **
