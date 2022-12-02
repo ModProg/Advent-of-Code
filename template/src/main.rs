@@ -1,5 +1,5 @@
 #![doc = include_str!("../puzzle.md")]
-use std::{env, fs};
+use std::{env, str::FromStr};
 
 use anyhow::{bail, Error, Result};
 
@@ -32,7 +32,7 @@ fn main() -> Result<()> {
 
     eprintln!("=== Solving Part {part:?} ===");
 
-    let output = panic!("Do the challenge");
+    let output = panic!("Do the challenge") as &str;
 
     println!("{output}");
     Ok(())

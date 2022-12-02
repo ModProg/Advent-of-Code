@@ -25,3 +25,5 @@ aoc d -d $day -y $year -i input
 sd -s "{year}" $year **
 sd -s "{day}" $day **
 sd -s "{day}" $day **
+
+open https://adventofcode.com/$year/day/$day
