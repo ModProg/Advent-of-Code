@@ -26,4 +26,4 @@ sd -s "{year}" $year **
 sd -s "{day}" $day **
 sd -s "{day}" $day **
 
-open https://adventofcode.com/$year/day/$day
+open https://adventofcode.com/$year/day/$day 2> /dev/null
