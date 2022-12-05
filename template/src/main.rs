@@ -1,5 +1,5 @@
 #![doc = include_str!("../puzzle.md")]
-use std::{env, str::FromStr};
+use std::{env, fmt::Display, str::FromStr};
 
 use anyhow::{bail, Error, Result};
 
@@ -32,8 +32,39 @@ fn main() -> Result<()> {
 
     eprintln!("=== Solving Part {part:?} ===");
 
-    let output = panic!("Do the challenge") as &str;
+    match part {
+        Part::One => println!("{}", one(INPUT)?),
+        Part::Two => println!("{}", two(INPUT)?),
+    }
 
-    println!("{output}");
     Ok(())
+}
+
+fn one(input: &str) -> Result<impl Display> {
+    Ok(todo!("Do part one") as &str)
+}
+
+fn two(input: &str) -> Result<impl Display> {
+    Ok(todo!("Do part two") as &str)
+}
+
+#[cfg(test)]
+mod test {
+    use indoc::indoc;
+
+    const INPUT: &str = indoc! {r#"
+
+    "#};
+
+    #[test]
+    fn one() {
+        let output = "";
+        assert_eq!(super::one(INPUT).unwrap().to_string(), output);
+    }
+
+    #[test]
+    fn two() {
+        let output = "";
+        assert_eq!(super::two(INPUT).unwrap().to_string(), output);
+    }
 }
