@@ -1,6 +1,6 @@
 #![feature(iter_next_chunk, array_chunks, array_try_map)]
 #![doc = include_str!("../puzzle.md")]
-use std::{env, fmt::Display, mem, str::FromStr, vec};
+use std::{env, mem, str::FromStr, vec};
 
 use anyhow::{anyhow, bail, Context, Error, Result};
 
