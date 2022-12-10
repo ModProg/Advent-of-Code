@@ -17,7 +17,7 @@ end
 cp -r template $year/$day
 cd $year/$day
 
-aoc r -d $day -y $year > /dev/null
+aoc r -d $day -y $year -p README.md > /dev/null
 aoc d -d $day -y $year -i input
 
 
