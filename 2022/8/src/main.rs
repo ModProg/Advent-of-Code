@@ -1,5 +1,5 @@
 #![feature(is_some_and)]
-#![doc = include_str!("../puzzle.md")]
+#![doc = include_str!("../README.md")]
 use std::{env, fmt::Display, ops::ControlFlow, str::FromStr};
 
 use anyhow::{bail, Context, Error, Result};

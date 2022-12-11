@@ -1,5 +1,5 @@
 #![feature(array_windows, slice_partition_dedup)]
-#![doc = include_str!("../puzzle.md")]
+#![doc = include_str!("../README.md")]
 use std::{env, fmt::Display, str::FromStr};
 
 use anyhow::{bail, Context, Error, Result};

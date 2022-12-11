@@ -1,5 +1,5 @@
 #![feature(iter_array_chunks)]
-#![doc = include_str!("../puzzle.md")]
+#![doc = include_str!("../README.md")]
 use std::{env, str::FromStr};
 
 use anyhow::{bail, Error, Result};

@@ -1,4 +1,4 @@
-#![doc = include_str!("../puzzle.md")]
+#![doc = include_str!("../README.md")]
 use std::{env, fmt::Display, iter, mem, str::FromStr};
 
 use anyhow::{anyhow, bail, ensure, Context, Error, Result};

@@ -1,4 +1,4 @@
-#![doc = include_str!("../puzzle.md")]
+#![doc = include_str!("../README.md")]
 use std::{cmp::Reverse, env, str::FromStr};
 
 use anyhow::{bail, Error, Result};
