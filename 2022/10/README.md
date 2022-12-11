@@ -202,8 +202,6 @@ Find the signal strength during the 20th, 60th, 100th, 140th, 180th, and 220th c
 
 Your puzzle answer was `11220`.
 
-The first half of this puzzle is complete! It provides one gold star: \*
-
 \--- Part Two ---
 ----------
 
@@ -341,8 +339,12 @@ Allowing the program to run to completion causes the CRT to produce the followin
 
 Render the image given by your program. *What eight capital letters appear on your CRT?*
 
-Answer:
+Your puzzle answer was `BZPAJELK`.
 
-Although it hasn't changed, you can still [get your puzzle input](10/input).
+Both parts of this puzzle are complete! They provide two gold stars: \*\*
 
-You can also [Shareon [Twitter](https://twitter.com/intent/tweet?text=I%27ve+completed+Part+One+of+%22Cathode%2DRay+Tube%22+%2D+Day+10+%2D+Advent+of+Code+2022&url=https%3A%2F%2Fadventofcode%2Ecom%2F2022%2Fday%2F10&related=ericwastl&hashtags=AdventOfCode) [Mastodon](javascript:void(0);)] this puzzle.
+At this point, you should [return to your Advent calendar](/2022) and try another puzzle.
+
+If you still want to see it, you can [get your puzzle input](10/input).
+
+You can also [Shareon [Twitter](https://twitter.com/intent/tweet?text=I%27ve+completed+%22Cathode%2DRay+Tube%22+%2D+Day+10+%2D+Advent+of+Code+2022&url=https%3A%2F%2Fadventofcode%2Ecom%2F2022%2Fday%2F10&related=ericwastl&hashtags=AdventOfCode) [Mastodon](javascript:void(0);)] this puzzle.
