@@ -1,0 +1,14 @@
+#!/bin/fish
+
+set year 2022
+set day 10
+
+set part $argv[1]
+
+if test (string length "$part") -eq 0;
+    set part 1
+end
+
+if aoc s -d $day -y $year $part (cargo run $part) 
+    aoc r -d $day -y $year -o -p README.md > /dev/null
+end
