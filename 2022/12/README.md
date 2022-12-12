@@ -37,8 +37,47 @@ This path reaches the goal in `*31*` steps, the fewest possible.
 
 *What is the fewest steps required to move from your current position to the location that should get the best signal?*
 
-To begin, [get your puzzle input](12/input).
+Your puzzle answer was `520`.
 
-Answer:
+\--- Part Two ---
+----------
 
-You can also [Shareon [Twitter](https://twitter.com/intent/tweet?text=%22Hill+Climbing+Algorithm%22+%2D+Day+12+%2D+Advent+of+Code+2022&url=https%3A%2F%2Fadventofcode%2Ecom%2F2022%2Fday%2F12&related=ericwastl&hashtags=AdventOfCode) [Mastodon](javascript:void(0);)] this puzzle.
+As you walk up the hill, you suspect that the Elves will want to turn this into a hiking trail. The beginning isn't very scenic, though; perhaps you can find a better starting point.
+
+To maximize exercise while hiking, the trail should start as low as possible: elevation `a`. The goal is still the square marked `E`. However, the trail should still be direct, taking the fewest steps to reach its goal. So, you'll need to find the shortest path from *any square at elevation `a`* to the square marked `E`.
+
+Again consider the example from above:
+
+```
+Sabqponm
+abcryxxl
+accszExk
+acctuvwj
+abdefghi
+
+```
+
+Now, there are six choices for starting position (five marked `a`, plus the square marked `S` that counts as being at elevation `a`). If you start at the bottom-left square, you can reach the goal most quickly:
+
+```
+...v<<<<
+...vv<<^
+...v>E^^
+.>v>>>^^
+>^>>>>>^
+
+```
+
+This path reaches the goal in only `*29*` steps, the fewest possible.
+
+*What is the fewest steps required to move starting from any square with elevation `a` to the location that should get the best signal?*
+
+Your puzzle answer was `508`.
+
+Both parts of this puzzle are complete! They provide two gold stars: \*\*
+
+At this point, you should [return to your Advent calendar](/2022) and try another puzzle.
+
+If you still want to see it, you can [get your puzzle input](12/input).
+
+You can also [Shareon [Twitter](https://twitter.com/intent/tweet?text=I%27ve+completed+%22Hill+Climbing+Algorithm%22+%2D+Day+12+%2D+Advent+of+Code+2022&url=https%3A%2F%2Fadventofcode%2Ecom%2F2022%2Fday%2F12&related=ericwastl&hashtags=AdventOfCode) [Mastodon](javascript:void(0);)] this puzzle.
